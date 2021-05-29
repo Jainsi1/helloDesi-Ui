@@ -82,3 +82,41 @@ svg {
   border :5px solid rgb(4, 161, 213);
   margin-top: 2%;
 }
+.para_div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Pname_div {
+  width: 100%;
+  height: 500px;
+  padding-right:30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.Heading_product_name {
+  color: rgb(4, 161, 213);
+  font-weight: bolder;
+}
+.buy_now {
+  border: 3px solid rgb(4, 161, 213);
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  margin-left: 10%;
+  margin-top: 2%;
+  height: 60px;
+  align-items: center;
+  color: rgb(4, 161, 213);
+  font-weight: bolder;
+}
+.Content1{
+  color: rgb(4, 161, 213);
+  font-weight: bolder;
+  width: 50%;
+  align-items: flex-end;
+}
