@@ -10,6 +10,7 @@
   width: 80%;
   box-sizing: border-box;
   border: 2px solid rgb(4, 161, 213);
+  margin-bottom: 2%;
 }
 .nav_bar_div {
   width: 100%;
@@ -214,6 +215,8 @@ svg {
   flex-direction: column;
   align-items: center;
   color: orange;
+  
+
 }
 .container {
   position: relative;
@@ -224,4 +227,18 @@ svg {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.empty_cart{
+display: flex;
+width: 290px;
+height: 192px;
+justify-content: center;
+align-items: center;
+}
+empty_cart_div{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
