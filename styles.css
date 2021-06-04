@@ -260,17 +260,31 @@ svg {
 .product_div_scroll::-webkit-scrollbar {
   display: none;
 }
-.button{
-  color:blue;
+.button {
+  margin-top: 3%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.Collection_box{
+.Collection_box {
   width: 100%;
   height: fit-content;
   justify-content: center;
 }
-.collection_content{
+.collection_content {
   justify-content: center;
   color: rgb(4, 161, 213);
   font-weight: bolder;
-
+}
+.button_recreate {
+  margin-top: 3%;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+.button_rapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
 }
