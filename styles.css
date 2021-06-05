@@ -194,6 +194,7 @@ svg {
   height: 200px;
   border: 3px solid rgb(4, 161, 213);
   margin-right: 2%;
+
 }
 .Box_image {
   width: 50%;
@@ -252,6 +253,7 @@ svg {
 .Review_div {
   display: flex;
   overflow-x: scroll;
+  margin-left: 5%;
 }
 .product_div_scroll {
   display: flex;
