@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Add to Cart</title>
+    <title>Checkout</title>
 
     <!-- CSS only -->
     <link
@@ -20,7 +20,8 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./styles.css" />
-    <link rel="stylesheet" href="./Addtocart.css" />
+    <link rel="stylesheet" href="./cart.css" />
+    <link rel="stylesheet" href="./checkout.css" />
   </head>
   <body>
     <div class="outer_div">
@@ -74,50 +75,102 @@ Icon Section
           </span>
         </section>
       </div>
-      <div class="addtocart" style="display: flex; justify-content: space-between;">
-        <section style="width: 50%;">
-          <img style="    height: 90%;
-          width: 90%;" src="public/images/collection1.png">
-        </section>
-        <section style="width: 45%;">
-          <h1 style="color:  rgb(4, 161, 213); font-weight: bold;">Ipsum is simply dummy text of the printing and typesetting
-            industry</h1>
-            <section style="width: 100%; justify-content: space-between; display: flex; margin-top: 5%;">
-              <section style="width: 50%; color:  rgb(4, 161, 213); font-size: large; font-weight: bold;">Price $ 123</section>
-              <section style="width: 50%; color: yellow;"><span><span style="color: rgb(4, 161, 213); font-size: large; font-weight: bold;">Rating</span><i style="margin-left: 3%;" class="fa fa-star" aria-hidden="true"></i><i style="margin-left: 3%;" class="fa fa-star" aria-hidden="true"></i><i style="margin-left: 3%;" class="fa fa-star" aria-hidden="true"></i><i style="margin-left: 3%;" class="fa fa-star" aria-hidden="true"></i></span></section>
-         </section>
-         <section style="margin-top: 20px; width: 100%;"><section class="Gotocart_div">Go to Cart</section></section>
-         <section style="margin-top: 20px; width: 100%;"><section class="Addtocart_div">Continue Shopping</section></section>
-         <section style="margin-top: 3%; color:  rgb(4, 161, 213); font-size: larger;">About the Product</section>
-         <section style="margin-top: 3%; color:  rgb(4, 161, 213); font-size: medium;">Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesettingLorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting Lorem Ipsum Lorem Ipsum is simply text of the printing and typesettingLorem Ipsum Lorem Ipsum is simply text of the printing and typesetting</section>
-        </section> 
-      </div>
-      <div class="Review" style="margin-top: 5%;">
-        <section>
-          <h3 style="color: orange">Reviews</h3>
-        </section>
-      </div>
-      <div class="setWidth">
-        <div class="Box">
-        <div style="width: 100%;height: 100%;display: flex;justify-content: center;align-items: center;padding: 20px;">
-        <section style="width: 20%;"><img src="public/images/ReviewImage.png"></section>
-        <section style="width: 80%;display: flex;justify-content:center;align-items: center;flex-direction: column;color: orange;">
-          <section style="width: 100%;display: flex;justify-content: space-between;"> 
-          <section style="width: 50%;display: flex;justify-content: flex-start;flex-direction: column;"> 
-            <span>Excepteur<br>Excepteur</span>
-           </section>
-            <section style="width: 50%;display: flex;justify-content: flex-end;color: yellow;"><span><span style="color: orange;">Rating</span><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span></section>
-          </section>
-        <section>
-          Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesettingLorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting
-        </section>
-        </section>
+      <div class="cart_products_main_div">
+<table style="width: 90%;box-sizing: border-box;color:rgb(4, 161, 213)">
+  <tr  style="width: 100%;border:3px solid rgb(4, 161, 213);box-sizing: border-box;">
+    <th style="width: 16%;"><section style="display: flex;width: 100%;justify-content: center;"><h4>Product</h4>
+    </section></th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Product Name</h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Price</h4>
+      </section>
+    </th>
+    <th style="width: 16%;"> 
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Quantity</h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Total</h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Remove</h4>
+      </section>
+    </th>
+  </tr>
+  <tr  style="width: 100%;box-sizing: border-box;">
+    <th style="width: 16%;"><section style="display: flex;width: 100%;justify-content: center;"><img src="public/images/collection1.png" style="width: 120px; height: 120px;">
+    </section></th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>Lorem Ipsum Lorem Ipsum is simply dummy text </h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>$ 123</h4>
+      </section>
+    </th>
+    <th style="width: 16%;"> 
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>1</h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   <h4>$ v123</h4>
+      </section>
+    </th>
+    <th style="width: 16%;">
+      <section style="display: flex;width: 100%;justify-content: center;">   
+      </section>
+    </th>
+  </tr>
+
   
-        </div>
-       </div>
+</table>
       </div>
       
-      <div class="setWidth" >
+     
+<div style="margin-top: 10%;">
+  <div class="cart" style="justify-content: space-evenly;margin-top: 5%;">
+    <section style="margin-top: 20px; width: 50%;"><section class="cart_div">Save for later</section></section>
+    <section style="margin-top: 20px; width: 50%;"><section class="cart_div" style="background-color: rgb(42, 116, 141); color: white;">Checkout</section></section>
+    <section style="margin-top: 20px; width: 50%;"><section class="cart_div">Continue Shopping</section></section>
+  </div>
+</div>
+   <div class="Contact" style="margin-top: 5%;">
+    <section>
+      <h3 style="color: rgb(4, 161, 213); align-content: center;">Contact Information</h3>
+    </section>
+   </div>
+
+
+    <section><h7 style="color: rgb(4, 161, 213); align-content: flex-start; margin-left: 5%;">Already have an Account? Login </h7></section>
+    <div class="setWidth" >
+        <div class="box1" style="margin-top: 1%;">
+            <section style="width: 100%;display:flex;align-content: flex-start;align-items: center; color: rgb(4, 161, 213);"><h7>Email and Mobile Number</h7></section>
+        </div>
+    </div>
+
+<div class="Contact" style="margin-top: 10%;">
+ <section>
+   <h3 style="color: rgb(4, 161, 213); align-content: center;">Shipping Address</h3>
+ </section>
+</div>
+<div style="margin-top: 10%;">
+    <div class="shippin" style="justify-content: space-evenly;margin-top: 5%;">
+      <section style="margin-top: 20px; width: 50%;"><section class="name_div">First Name</section></section>
+      
+      <section style="margin-top: 20px; width: 50%;"><section class="name_div">Last Name</section></section>
+    </div>
+  </div>
+
+<div class="setWidth" >
+    <div class="box1" style="margin-top: 1%;">
+        <section style="width: 100%;display:flex;align-content: flex-start;align-items: center; color: rgb(4, 161, 213);"><h7>Address</h7></section>
+    </div>
+</div>
+    <div class="setWidth" >
         <div class="Box2" style="margin-top: 5%;">
           <div style="width: 100%;display: flex;justify-content: space-evenly;color: orange;">
           <section style="width: 20%;display: flex;flex-direction: column;"><h4>Excepteur</h4>
@@ -168,6 +221,6 @@ Icon Section
             Designed and Developed By D Afjghfyhfdgtdfil Technologies
             </span>
         </div>
-    </div>
+        </div>
 </body>
 </html>
