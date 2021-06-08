@@ -7,9 +7,9 @@
   margin-top: 5%;
 }
 .inner-div {
-  width: 80%;
+  width: 100%;
   box-sizing: border-box;
-  border: 2px solid rgb(4, 161, 213);
+  border: 2px solid white;
   margin-bottom: 2%;
 }
 .nav_bar_div {
@@ -187,7 +187,7 @@ svg {
 .Box {
   width: 90%;
   height: 200px;
-  border: 3px solid rgb(4, 161, 213);
+  border: 3px solid white;
 }
 .Box_review {
   width: 600px;
@@ -215,7 +215,7 @@ svg {
 .Box2 {
   width: 90%;
   height: fit-content;
-  border: 3px solid rgb(4, 161, 213);
+  border: 3px solid white;
 }
 .Payment_content1 {
   margin-top: 1%;
