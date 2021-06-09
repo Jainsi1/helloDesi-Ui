@@ -1,10 +1,11 @@
 .outer_div {
   width: 100%;
-  box-sizing: border-box;
+  height: 100%;
+  /*  box-sizing: border-box;
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 5%;
+  align-items: center; */
+  /*   margin-top: 5%; */
 }
 .inner-div {
   width: 100%;
@@ -17,6 +18,7 @@
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .nav_items {
   display: flex;
@@ -187,14 +189,13 @@ svg {
 .Box {
   width: 90%;
   height: 200px;
-  border: 3px solid white;
+  
 }
 .Box_review {
   width: 600px;
   height: 200px;
   border: 3px solid rgb(4, 161, 213);
   margin-right: 2%;
-
 }
 .Box_image {
   width: 50%;
@@ -215,7 +216,7 @@ svg {
 .Box2 {
   width: 90%;
   height: fit-content;
-  border: 3px solid white;
+  
 }
 .Payment_content1 {
   margin-top: 1%;
