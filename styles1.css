@@ -85,6 +85,32 @@ svg {
   align-items: center;
   text-align: center;
 }
+.new_Arrival_div {
+  position: absolute;
+  top: 40%;
+  right: 5%;
+
+  /* right: 10%; */
+}
+.heading_new_arrival {
+  color: rgb(4, 161, 213);
+  font-weight: bolder;
+  font-size: 6rem;
+  /*  margin-right: 30%; */
+}
+.shop_now {
+  border: 3px solid rgb(4, 161, 213);
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 48%;
+  margin-top: 2%;
+  height: 60px;
+  align-items: center;
+  color: rgb(4, 161, 213);
+  font-weight: bolder;
+  /* align-content: flex-end; */
+}
 .explore_button {
   width: 10%;
   display: flex;
